@@ -1,0 +1,69 @@
+body {
+    background-color: #282c34;
+    /* background-color: rgb(40, 40, 40); */
+    /* color: #fff; */
+    color: #abb2bf;
+    margin: 0 25%;
+    font-family: "Fira Code";
+}
+
+hr {
+    color: #5c6370;
+}
+
+.info {
+    text-align: center;
+    margin-top: 50px;
+    /* align-items: center; */
+}
+.info h3 {
+    color: #abb2bf;
+}
+
+.info h4 {
+    color: #d19a66;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flex container */
+    justify-content: center;
+}
+
+.links li {
+    margin-right: 10px; /* Adjust the spacing between items */
+}
+
+.section {
+    margin: 50px 0px;
+}
+
+.sub_heading {
+    text-align: center;
+    padding: 10px 0px;
+    color: #e06c75;
+}
+.mini_heading {
+    padding: 5px 0px;
+    color: #98c379;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+    grid-gap: 5px; /* Adjust the gap between cells */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    /* height: 100vh; */
+    /* Set the height of the grid container to the viewport height */
+}
+
+.grid-item {
+    /* background-color: rgb(31, 31, 31); */
+    /* background-color: #5C6370;  */
+    color: #61afef;
+    padding: 10px;
+    text-align: center;
+    /* backdrop-filter: blur(6px); */
+}
