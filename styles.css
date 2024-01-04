@@ -67,3 +67,11 @@ hr {
     text-align: center;
     /* backdrop-filter: blur(6px); */
 }
+
+.social_icon {
+    height: 20px;
+    width: 20px;
+}
+.links {
+    margin: 10px 0px;
+}
