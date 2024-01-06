@@ -1,7 +1,5 @@
 body {
     background-color: #282c34;
-    /* background-color: rgb(40, 40, 40); */
-    /* color: #fff; */
     color: #abb2bf;
     margin: 0 25%;
     font-family: "Fira Code";
@@ -14,10 +12,10 @@ hr {
 .info {
     text-align: center;
     margin-top: 50px;
-    /* align-items: center; */
 }
+
 .info h3 {
-    color: #abb2bf;
+    color: #fff;
 }
 
 .info h4 {
@@ -33,6 +31,13 @@ hr {
 
 .links li {
     margin-right: 10px; /* Adjust the spacing between items */
+}
+.social_icon {
+    height: 20px;
+    width: 20px;
+}
+.links {
+    margin: 10px 0px;
 }
 
 .section {
@@ -51,27 +56,49 @@ hr {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
-    grid-gap: 5px; /* Adjust the gap between cells */
-    justify-content: center; /* Center the grid horizontally */
-    align-items: center; /* Center the grid vertically */
-    /* height: 100vh; */
-    /* Set the height of the grid container to the viewport height */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-item {
-    /* background-color: rgb(31, 31, 31); */
-    /* background-color: #5C6370;  */
     color: #61afef;
     padding: 10px;
     text-align: center;
-    /* backdrop-filter: blur(6px); */
 }
 
-.social_icon {
-    height: 20px;
-    width: 20px;
+.work_points {
+    list-style-type: none;
 }
-.links {
-    margin: 10px 0px;
+
+.note {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 0 15%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 10%;
+        /* font-size: 1rem; */
+    }
+    h5,
+    h4 {
+        font-size: medium;
+    }
+    p,
+    div,
+    h6 {
+        font-size: smaller;
+    }
 }
